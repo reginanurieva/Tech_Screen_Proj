@@ -16,7 +16,7 @@
     </div>
   <!-- ======= Pizza Order Size ====== -->
     <div class="container">
-      <form id="pizza-order-form">
+      <form id="order">
   <div class="form-group">
     <div class="row">
       <div>
@@ -26,19 +26,19 @@
     <div class="row">
         <div class="radio">
           <label>
-            <input type="radio" name="size"checked>
+            <input type="radio" name="size" value="Medium" checked>
             Medium
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="size" checked>
+            <input type="radio" name="size" value="Large"checked>
             Large
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="size" checked>
+            <input type="radio" name="size" value="Family" checked>
             Family
           </label>
         </div>
@@ -94,27 +94,32 @@
             </div>
           </div>
         </div>
-        <button type="submit" class="btn btn-success btn-margin">
+        <button type="submit" class="btn btn-success" id="submitBtn">
           P L A C E &nbsp; O R D E R
         </button>
+        <h3>Order Detail</h3>
+        <p>Pizza Size:</p>
+        <div id="pizza-size"></div>
+        <p>Pizza Ingredients:</p>
+        <div id="pizza-ingredients"></div>
+        <p>Order Total:</p>
+        <h2>$ <h2>
+        <div id="pizza-total"></div>
       </form>
   <!-- Pizza Order Output -->
-      <div class="row">
+      <!-- <div class="row">
         <div id="pizza-order-output">
           <ul id="pizza-order-list">
           </ul>
         </div>
-      </div>
+      </div> -->
   <!-- ======= Pizza Order Detail ====== -->
-      <div class="row">
-        <div id="pizza-order-detail">
-          <h3>Order Detail</h3>
-          <p>Pizza Size: <strong><span class="pizza-size"></span></strong></p>
-          <p>Pizza Ingredients: <strong><span class="pizza-ingredients"></span></strong></p>
-          <p>Order Total:</p>
-          <h2>$ <span class="order-total"></span><h2>
-        </div>
-      </div>
+      <!-- <div class="row"> -->
+        <!-- <div id="pizza-order-detail"> -->
+
+
+        <!-- </div> -->
+      <!-- </div> -->
     </div>
   </body>
 </html>

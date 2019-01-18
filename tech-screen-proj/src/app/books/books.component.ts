@@ -14,10 +14,3 @@ export class BooksComponent implements OnInit {
   }
 
 }
-
-// books: Book[] = [
-//   new Book(title, author, img, id),
-//   new Book("Village life", "AM", "bjkj", 3),
-//   new Book("Her", "Andrei Mosanu",
-//       "300.00.", 3)
-// ];

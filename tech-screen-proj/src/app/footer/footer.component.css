@@ -1,0 +1,31 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    margin: auto;
+  
+  
+  }
+  
+  li{
+    font-size: 10px;
+    color: #505256;
+    list-style-type: none;
+    padding: 10px;
+  
+  }
+   h5{
+     font-size: 11px;
+   }
+  
+   .lines{
+     background-color: #eff0f2;
+   }
+  
+   .op{
+     opacity: .5;
+     font-size: 13px;
+     text-align: center;
+   }
